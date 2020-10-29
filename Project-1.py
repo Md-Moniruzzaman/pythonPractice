@@ -1,10 +1,17 @@
-course = '''
-hi monir
+# course = '''
+# hi monir
 
-There is my first email to you.
+# There is my first email to you.
 
-thank you 
-for support me.
+# thank you 
+# for support me.
 
-'''
-print(course)
+# '''
+# print(course)
+
+# formated string
+first_name = "Md"
+last_name = "Moniruzzaman"
+message = first_name+' ' + last_name + ' is a coder.'
+msg = f'{first_name} [{last_name}] is a coder.'
+print(msg)
