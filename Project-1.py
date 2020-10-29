@@ -18,10 +18,22 @@
 
 # string method
 
-course = 'Python for Begginers'
+# course = 'Python for Begginers'
 
-print(len(course))
-print(course.upper())
-print(course.find("f"))
-print(course.replace('Begginers','Beginners'))
-print(course.title())
+# print(len(course))
+# print(course.upper())
+# print(course.find("f"))
+# print(course.replace('Begginers','Beginners'))
+# print(course.title())
+
+# if statement
+
+price = 1000000
+has_good_creadit = True
+
+if has_good_creadit:
+    down_payment = 0.1*price
+else:
+    down_payment = 0.2*price
+
+print(f'Down payment: ${down_payment}')    
