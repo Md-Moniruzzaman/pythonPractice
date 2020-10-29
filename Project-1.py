@@ -28,12 +28,22 @@
 
 # if statement
 
-price = 1000000
-has_good_creadit = True
+# price = 1000000
+# has_good_creadit = True
 
-if has_good_creadit:
-    down_payment = 0.1*price
+# if has_good_creadit:
+#     down_payment = 0.1*price
+# else:
+#     down_payment = 0.2*price
+
+# print(f'Down payment: ${down_payment}')    
+
+# logical operator
+name = 'monir'
+
+if len(name)<3:
+    print('Name must be at least 3 charecters.')
+elif len(name)>50:
+    print('Name can be a maximum 50 charecters.')
 else:
-    down_payment = 0.2*price
-
-print(f'Down payment: ${down_payment}')    
+    print('Name looks good')
