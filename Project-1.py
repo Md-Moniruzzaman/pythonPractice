@@ -39,11 +39,29 @@
 # print(f'Down payment: ${down_payment}')    
 
 # logical operator
-name = 'monir'
+# name = 'monir'
 
-if len(name)<3:
-    print('Name must be at least 3 charecters.')
-elif len(name)>50:
-    print('Name can be a maximum 50 charecters.')
-else:
-    print('Name looks good')
+# if len(name)<3:
+#     print('Name must be at least 3 charecters.')
+# elif len(name)>50:
+#     print('Name can be a maximum 50 charecters.')
+# else:
+#     print('Name looks good')
+
+# nested for loop
+
+numbers = [3,1,3,1,3]
+
+for x_count in numbers:
+    output = ''
+    for count in range(x_count):
+        output += 'x'
+    print(output)
+
+# finding maximum number from list
+number = [2, 3, 5, 10, 15, 11, 8, 6, 9, 7]
+max = number[0]
+for item in number:
+    if item > max:
+        max = item
+print(max)
