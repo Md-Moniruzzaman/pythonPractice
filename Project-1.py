@@ -50,18 +50,52 @@
 
 # nested for loop
 
-numbers = [3,1,3,1,3]
+# numbers = [3,1,3,1,3]
 
-for x_count in numbers:
-    output = ''
-    for count in range(x_count):
-        output += 'x'
-    print(output)
+# for x_count in numbers:
+#     output = ''
+#     for count in range(x_count):
+#         output += 'x'
+#     print(output)
 
-# finding maximum number from list
-number = [2, 3, 5, 10, 15, 11, 8, 6, 9, 7]
-max = number[0]
-for item in number:
-    if item > max:
-        max = item
-print(max)
+# # finding maximum number from list
+# number = [2, 3, 5, 10, 15, 11, 8, 6, 9, 7]
+# max = number[0]
+# for item in number:
+#     if item > max:
+#         max = item
+# print(max)
+
+number_item = [10, 2, 45, 7, 85, 6,]
+number_item.sort()
+number_item.reverse()
+# print(number_item)
+def myFunc(e):
+  return len(e['car'])
+
+cars = [
+  {'car': 'Ford', 'year': 2005},
+  {'car': 'Mitsubishi', 'year': 2000},
+  {'car': 'BMW', 'year': 2019},
+  {'car': 'VW', 'year': 2011}
+]
+
+cars.sort(key=myFunc)
+
+# print(cars)
+
+
+number_tuple = (10, 2, 45, 7, 85, 6)
+# print(number_tuple)
+
+phone = input("Phone: ")
+digits_maping = {
+    "1" : "One",
+    "2" : "Two",
+    "3" : "Three",
+    "4" : "Four",
+}
+output = ""
+for ch in phone:
+    output += digits_maping.get(ch,"!") + " "
+# print(output)
